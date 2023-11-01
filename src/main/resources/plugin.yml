@@ -1,0 +1,22 @@
+name: LifeSteal
+version: '${project.version}'
+main: me.limpan.lifesteal.LifeSteal
+api-version: '1.20'
+commands:
+  giveHearts:
+    usage: giveHearts <player> <amount>
+    description: Give hearts to a player
+  takeHearts:
+    description: Take hearts from a player
+  resetHearts:
+    description: Reset a player's hearts
+  setMinHearts:
+    description: Set minimum amount of hearts
+  setMaxHearts:
+    description: Set maximum amount of hearts
+  giveHeartItem:
+    description: Give an amount of heart items to a player
+  setAdjustableDeathHearts:
+    description: Sets the amount of hearts that will be removed when a player dies
+  setAdjustableKillHearts:
+    description: Sets the amount of hearts that will be added when a player gets a kill
